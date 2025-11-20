@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Grid, Typography, Button, Stack } from "@mui/material";
+import { Box, Typography, Button, Stack } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import AboutImg from "../../assets/images/about-img.webp";

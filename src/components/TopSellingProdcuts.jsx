@@ -7,7 +7,6 @@ import {
   Typography,
   Button,
   Box,
-  Link,
 } from "@mui/material";
 import { Rating } from "@mui/material";
 import StarIcon from "@mui/icons-material/Star";
@@ -68,9 +67,9 @@ const products = [
 const TopSellingProdcuts = () => {
   const [wishlist, setWishlist] = useState({});
 
-  const toggleWishlist = (id) => {
-    setWishlist((prev) => ({ ...prev, [id]: !prev[id] }));
-  };
+  // const toggleWishlist = (id) => {
+  //   setWishlist((prev) => ({ ...prev, [id]: !prev[id] }));
+  // };
   return (
     <Box component="section" sx={{ padding: "50px 0  0 0" }}>
       <Box className="scrn-container">

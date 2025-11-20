@@ -20,7 +20,6 @@ import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
 
 import logoImg from "../assets/images/logo/premshop-logo.webp";
-import logoIcon from "../assets/images/logo/logo-iocn.png";
 
 import AccountMenu from "../components/AccountMenu";
 import SubmenuImg from "../assets/images/logo/empty-cart.webp";
