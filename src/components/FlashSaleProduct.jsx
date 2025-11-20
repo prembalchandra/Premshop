@@ -234,7 +234,6 @@ const FlashSaleProduct = () => {
                             backgroundColor: "#1800a17d",
                             color: "#fff",
                             borderRadius: "6px",
-                            color: "#fff",
                             fontWeight: 600,
                             fontSize: "14px",
                             cursor: "pointer",
