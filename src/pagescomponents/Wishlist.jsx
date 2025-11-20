@@ -5,9 +5,16 @@ import {
 import WishlistPage from '../components/WishlistComponents/Wishlist'
 import CommonHeroSection from '../components/CommonHerosection'
 import heroImg from '../assets/images/download.jpeg'
+import SeoComponents from "../components/SeoComponents";
 function Wishlist() {
   return (
     <Box>
+      <SeoComponents
+  title="Wishlist – Premshop"
+  description="Save products you love and buy anytime."
+  canonical="https://premshops.netlify.app//wishlist"
+/>
+
       <CommonHeroSection
           title="Wishlist"
           bgImage={heroImg}
