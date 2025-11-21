@@ -30,3 +30,6 @@ section{
   padding: 60px 0;
 }
 
+.slick-slide{
+  height: auto !important;
+}
