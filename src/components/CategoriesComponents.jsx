@@ -25,6 +25,9 @@ const categories = [
 export default function CategoryCardSlider() {
   const [selected, setSelected] = useState("");
   const sliderRef = useRef(null);
+  useEffect(() => {
+  window.dispatchEvent(new Event("resize"));
+}, []);
 
   const settings = {
     initialSlide: 0,
