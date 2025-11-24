@@ -22,7 +22,7 @@ p, a, button, div, ul, li, span, input, label {
 
 .scrn-container{
   width: 90%;
-  max-width: 1480px;
+  /* max-width: 1480px; */
   margin: auto;
 }
 
