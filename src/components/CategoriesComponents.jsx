@@ -87,7 +87,7 @@ export default function CategoryCardSlider() {
             <ArrowBackIosNewIcon fontSize="small" />
           </IconButton>
 
-          <Slider ref={sliderRef} {...settings}>
+          <Slider {...settings}>
             {categories.map((cat) => (
               <Box key={cat.name} sx={{ padding: 1 }}>
                 <Card
