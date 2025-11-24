@@ -27,6 +27,8 @@ export default function CategoryCardSlider() {
   const sliderRef = useRef(null);
 
   const settings = {
+    initialSlide: 0,
+    adaptiveHeight: true,
     dots: false,
     infinite: true,
     speed: 500,
@@ -40,6 +42,7 @@ export default function CategoryCardSlider() {
       { breakpoint: 768, settings: { slidesToShow: 2 } },
       { breakpoint: 480, settings: { slidesToShow: 2 } },
     ],
+    mobileFirst: true
   };
 
   return (
