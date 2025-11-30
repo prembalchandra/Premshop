@@ -45,7 +45,7 @@ export default function CategoryCardSlider() {
       { breakpoint: 768, settings: { slidesToShow: 2 } },
       { breakpoint: 480, settings: { slidesToShow: 2 } },
     ],
-    mobileFirst: true
+    // mobileFirst: true
   };
 
   return (
