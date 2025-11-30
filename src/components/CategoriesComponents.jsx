@@ -26,8 +26,8 @@ export default function CategoryCardSlider() {
   const [selected, setSelected] = useState("");
   const sliderRef = useRef(null);
   useEffect(() => {
-  window.dispatchEvent(new Event("resize"));
-}, []);
+    window.dispatchEvent(new Event("resize"));
+  }, []);
 
   const settings = {
     initialSlide: 0,
@@ -35,17 +35,17 @@ export default function CategoryCardSlider() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 7,
+    slidesToShow: 1, // default for mobile
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 3 } },
-      { breakpoint: 768, settings: { slidesToShow: 2 } },
       { breakpoint: 480, settings: { slidesToShow: 2 } },
+      { breakpoint: 768, settings: { slidesToShow: 3 } },
+      { breakpoint: 1024, settings: { slidesToShow: 7 } },
     ],
-    // mobileFirst: true
+    mobileFirst: true
   };
 
   return (
@@ -129,13 +129,13 @@ export default function CategoryCardSlider() {
               top: "60%",
               transform: "translateY(-50%)",
               zIndex: 10,
-                width: 35,
+              width: 35,
               height: 35,
               borderRadius: "50%",
               backgroundColor: "#c72277",
               padding: "10px",
               color: "#fff",
-              "&:hover": { backgroundColor: "#8e82d1",}
+              "&:hover": { backgroundColor: "#8e82d1", }
             }}
             onClick={() => sliderRef.current.slickNext()}
           >
