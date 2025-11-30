@@ -35,7 +35,7 @@ export default function CategoryCardSlider() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1, // default for mobile
+    slidesToShow: 1, 
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
